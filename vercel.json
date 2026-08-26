@@ -1,15 +1,4 @@
 {
   "buildCommand": null,
-  "outputDirectory": ".",
-  "rewrites": [
-    { "source": "/", "destination": "/index.md" }
-  ],
-  "headers": [
-    {
-      "source": "/",
-      "headers": [
-        { "key": "Content-Type", "value": "text/markdown; charset=utf-8" }
-      ]
-    }
-  ]
+  "outputDirectory": "."
 }

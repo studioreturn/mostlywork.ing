@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="mostlywork.ing is a tiny software company from Bristol. We make small, useful things.">
+<link rel="icon" href="favicon.ico">
+<title>mostlywork.ing</title>
+<script>
+  (function () {
+    var host = location.hostname;
+    var ua = navigator.userAgent;
+    var isFirefox = /Firefox\//.test(ua);
+    var isSafari = /^((?!Chrome|Chromium|Edg|Android).)*Safari/.test(ua);
+    var keepTrailingSlash = isFirefox || isSafari;
+    document.title = keepTrailingSlash ? host + "/" : host;
+  })();
+</script>
+<style>
+  :root {
+    color-scheme: light dark;
+    --fg: #111;
+    --bg: #fff;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fg: #eee;
+      --bg: #111;
+    }
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+  }
+
+  pre {
+    color: var(--fg);
+    font-family: ui-monospace, "SF Mono", "Menlo", "Consolas", "Liberation Mono", monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 8px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+  }
+</style>
+</head>
+<body>
+<pre><b>*</b>
+
+We're a tiny software company in Bristol, UK. We make small, useful things.
+
+## Projects
+
+- **<a href="https://ourscene.uk" target="_blank" rel="noopener noreferrer">Scene</a>** - Letterboxd for gigs.
+- **<a href="https://www.letsbreakout.com/" target="_blank" rel="noopener noreferrer">Breakout</a>** - The remote breakout area.
+- **Tally** - Simple calorie counter. (Coming soon)
+
+## Links
+
+- <a href="https://studioreturn.co" target="_blank" rel="noopener noreferrer">Parent co.</a>
+
+© 2026 mostlywork.ing</pre>
+</body>
+</html>
