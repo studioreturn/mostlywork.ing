@@ -1,4 +1,4 @@
-mostlywork.ing*
+*
 
 We're a tiny software company from Bristol. We make small, useful things.
 
